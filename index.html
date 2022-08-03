@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Fotox | Diversas imagens gratuitas</title>
+    <link rel="icon" type="imagem/png" href="./images/logo-icon.png"/>
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <!-- CSS STYLE LINK -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+<body>
+    <div class="container">
+        
+        <main class="main">
+            <h1 class="main__title">FOTOX</h1>
+
+            <div class="search">
+                <!-- Icon search -->
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="search__bar" type="text" placeholder="Pesquise imagens" />
+                <!-- Icon mic -->
+                <button name="start" class="search__btn"><i class="fa-solid fa-microphone"></i></button>
+            </div>
+            <div class="main__pagination display-none">
+                <i class="fa-solid fa-angle-left"></i>
+                <input type="text" class="page" id="page" value="1" />
+                <span class="page-total" id="page-total"></span>
+                <i class="fa-solid fa-angle-right"></i>
+                
+            </div>
+            <div class="main__references">
+                <p>Tendências: <span><span class="span1">inverno,</span> <span class="span2">tecnologia,</span> <span class="span3">paisagem</span> <span class="span4">...</span></span></p>
+            </div>
+
+            <section class="main__gallery"></section>
+        </main>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/pixabay.js"></script>
+    <script src="./js/speech.js"></script>
+</body>
+</html>

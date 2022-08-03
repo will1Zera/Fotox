@@ -1,0 +1,17 @@
+.main__gallery{
+    background-color: var(--color-black);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 120px 0px 60px 0px;
+}
+
+.card__container{
+    height: 200px;
+}
+
+.card__image img{
+    height: 100%;
+    width: 100%;
+}
