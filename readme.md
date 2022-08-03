@@ -4,7 +4,7 @@
   <a href="#sobre-">Sobre</a>
 </p>
 <p align="center"> 
-  Fotox é uma plataforma inspirada no Google, capaz de pesquisar imagens do pixabay
+  Fotox é uma plataforma inspirado no Google, capaz de pesquisar imagens do pixabay
 </p>
 <p align="center">
   <img src="/images/fotox.gif" align="center" style="border-radius: 10px" />
