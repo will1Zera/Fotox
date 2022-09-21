@@ -26,7 +26,7 @@ Fotox disponibiliza uma variedade de imagens gratuitas, com a possibilidade de f
 
 
 ### Objetivo
-Práticar principais funções relacionadas ao consumo de API, entre elas, foram utilizadas:
+Praticar principais funções relacionadas ao consumo de API, entre elas, foram utilizadas:
 
 - Web Speech API: Incorpora vozes para aplicações WEB
 - Pixabay API: Incorpora imagens da pixabay
